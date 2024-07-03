@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Заголовок страницы</title>
+    <meta charset="UTF-8">
+    <title>My Website</title>
     <style>
         body {
-            background-image:"https://oir.mobi/uploads/posts/2021-03/thumbs/1616542002_20-p-chernii-fon-dlya-prezentatsii-25.jpg");
+            background-image: url("https://oir.mobi/uploads/posts/2021-03/thumbs/1616542002_20-p-chernii-fon-dlya-prezentatsii-25.jpg");
+            background-size: cover;
+            text-align: center;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 18px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .player-container {
+            max-width: 100%;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .player-container iframe {
+            width: 100%;
+            height: 300px;
         }
     </style>
 </head>
 <body>
-    <!-- Ваш контент здесь -->
+    <h1>Home</h1>
+    <div class="button-container">
+        <a href="#" class="button">Button 1</a>
+        <a href="#" class="button">Button 2</a>
+        <a href="#" class="button">Button 3</a>
+        <a href="#" class="button">Button 4</a>
+        <a href="#" class="button">Button 5</a>
+    </div>
+    
+    <h1>Video</h1>
+    <div class="player-container">
+        <!-- Вставьте код плеера для воспроизведения m3u ссылки здесь -->
+    </div>
+    
+    <h1>Radio</h1>
+    <div class="player-container">
+        <!-- Вставьте код плеера для воспроизведения m3u ссылки радио здесь -->
+    </div>
 </body>
 </html>
