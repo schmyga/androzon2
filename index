@@ -1,1 +1,14 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Заголовок страницы</title>
+    <style>
+        body {
+            background-image:"https://oir.mobi/uploads/posts/2021-03/thumbs/1616542002_20-p-chernii-fon-dlya-prezentatsii-25.jpg");
+        }
+    </style>
+</head>
+<body>
+    <!-- Ваш контент здесь -->
+</body>
+</html>
