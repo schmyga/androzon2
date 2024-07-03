@@ -4,7 +4,7 @@
     <title>Заголовок страницы</title>
     <style>
         body {
-            background-image: url("https://u-stena.ru/upload/iblock/b22/b2281bd4ceac4e6bd9c99d0c01d7b6f9.jpg");
+            background-image: url "https://u-stena.ru/upload/iblock/b22/b2281bd4ceac4e6bd9c99d0c01d7b6f9.jpg" ;
         }
     </style>
 </head>
